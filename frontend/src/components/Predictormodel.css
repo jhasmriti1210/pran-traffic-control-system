@@ -1,0 +1,94 @@
+/* AQI Predictor Styles */
+.aqi-container {
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #0f5a11, #2489dc);
+
+    border-radius: 10px;
+    text-align: center;
+}
+
+.aqi-title {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+
+/* Input field */
+.aqi-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.aqi-input:focus {
+    border-color: #007bff;
+}
+
+/* Predict Button */
+.aqi-button {
+    width: 100%;
+    background: #0056b3;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.aqi-button:hover {
+    background: #073509;
+}
+
+/* Result Container */
+.aqi-result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.aqi-result p {
+    font-size: 20px;
+    margin: 20px 250px;
+}
+
+.aqi-category {
+    font-weight: bold;
+}
+
+/* Color coding for AQI Category */
+.good {
+    color: green;
+}
+
+.moderate {
+    color: orange;
+}
+
+.bad {
+    color: red;
+}
+
+/* AQI Meter & Graph */
+.aqi-meter,
+.aqi-graph {
+    margin-top: 20px;
+    width: 100%;
+    /* Increase width to take full container */
+    max-width: 500px;
+    /* Set a larger max width */
+    height: 350px;
+    /* Increase height */
+    margin-left: 120px;
+}
